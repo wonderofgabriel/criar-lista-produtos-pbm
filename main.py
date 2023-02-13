@@ -12,10 +12,10 @@ plataformas = []
 # Importando a tabela de produtos
 usuario = os.getlogin()
 arquivo = pd.read_excel(f'C:\\Users\\{usuario}\\Meu Drive\\PBM\\PRODUTOS PBM.xlsx', skiprows=3, dtype=str)
-
+# arquivo = pd.read_excel(f'C:\\Users\\pbm\\OneDrive\\Documentos\\PBM\\PRODUTOS PBM.xlsx', skiprows=3, dtype=str)
 # Nome dos laboratórios
 laboratorios = ['ACHE', 'ALCON', 'ASTRAZENECA', 'BAYER', 'BIOLAB', 'BOEHRINGER',
-                'E.M.S', 'FARMOQUIMICA', 'GERMED', 'GSK', 'HYPERA', 'LILLY', 'NOVARTIS',
+                'E.M.S', 'FARMOQUIMICA', 'GERMED', 'GSK', 'HYPERA', 'LILLY', 'NOVARTIS', 'PFIZER',
                 'U.SK', 'UCB BIOPHARMA', 'UNITED MEDICAL', 'VIATRIS', 'ABBOTT',
                 'ALLERGAN', 'APSEN', 'CHIESI', 'MSD', 'MUNDIPHARMA',
                 'PERRIGO', 'SANOFI', 'SERVIER', 'ZODIAC']
@@ -27,7 +27,7 @@ contador = 0
 for laboratorio in laboratorios:
     if contador == 0:
         print('PORTAL DA DROGARIA:')
-    elif contador == 17:
+    elif contador == 18:
         print('\nFUNCIONAL:')
     else:
         pass
