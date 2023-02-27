@@ -33,7 +33,7 @@ nome_programas = ['CUIDADOS PELA VIDA', 'VALE MAIS VISAO', 'FAZBEM', 'BAYER PARA
 print('Digite o(s) número(s) do(s) laboratórios(s) que você deseja adicionar, separando-os por virgula.')
 print()
 contador = 0
-for valor in range(28):
+for valor in range(29):
     if contador == 0:
         print('PORTAL DA DROGARIA:')
     elif contador == 19:
